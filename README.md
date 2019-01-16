@@ -5,5 +5,7 @@ for run this app:
 2. install mongodb
 
 after this go to the directory and run "node app.js" (without quotes) in terminal
- in the browser search  : http://localhost:3000
+
+
+In the browser search  : http://localhost:3000
 
