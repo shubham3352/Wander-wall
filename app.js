@@ -7,7 +7,8 @@ var LocalStrategy=require('passport-local');
 var passportLocalMongoose=require('passport-local-mongoose');
 var leaderBoard=require('@gamestdio/leaderboard');
 
-mongoose.connect("mongodb://localhost/e_mage");
+//mongoose.connect("mongodb://localhost/e_mage");
+mongoose.connect("mongodb://shubham:03092001s@ds030719.mlab.com:30719/e_mage");
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine","ejs");
 
