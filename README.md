@@ -7,3 +7,5 @@ for run this app:
 after this go to the directory and run "node app.js" (without quotes) in terminal
 
 
+In the browser search  : http://localhost:3000
+
