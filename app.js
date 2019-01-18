@@ -130,7 +130,8 @@ app.post("/allimage/:id",isLoggedIn, function(req, res) {
         } else {
             data.likes += 1;
             data.save();
-            res.redirect("/");
+            //res.redirect("/allimage/:id");
+            res.render("show",{img:data});
         }
     });
 });
