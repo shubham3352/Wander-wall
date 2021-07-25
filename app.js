@@ -8,7 +8,8 @@ var passportLocalMongoose=require('passport-local-mongoose');
 var leaderBoard=require('@gamestdio/leaderboard');
 
 //mongoose.connect("mongodb://localhost/e_mage");
-mongoose.connect("mongodb://shubham:03092001s@ds030719.mlab.com:30719/e_mage");
+//mongoose.connect("mongodb://shubham:03092001s@ds030719.mlab.com:30719/e_mage");
+mongoose.connect("mongodb+srv://emage:03092001s@cluster0.r7xzv.mongodb.net/test");
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine","ejs");
 
